@@ -8,6 +8,14 @@ public class carClass {
 		car1.brand="Fiat";
 		car1.model="500";
 		car1.amountOfFuel=10;
+		
+		car1.printData();
+		car1.brake();
+		car1.accelerate();
+		car1.printData();
+		
+		car car2 = new car("Toyota", "Fortuner", 10);
+		car2.printData();
 	}
 	
 
