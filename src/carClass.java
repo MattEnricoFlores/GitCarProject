@@ -33,4 +33,31 @@ class car
 		amountOfFuel=10;
 	}
 	
+	public void brake()
+	{
+		System.out.println("The car is braking");
+	}
+	public void accelerate()
+	{
+		if (amountOfFuel >0)
+		{
+		System.out.println("Car is accelerating");
+		amountOfFuel = (amountOfFuel-1);
+		}
+		else
+		{
+			System.out.println("");
+		}
+	}
+	public void printData()
+	{
+		System.out.println(brand);
+		System.out.println(model);
+		System.out.println(amountOfFuel);
+	}
+	public void refuel(int amount)
+	{
+		amountOfFuel = (amountOfFuel + amount);
+	}
+	
 }
