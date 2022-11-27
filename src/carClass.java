@@ -19,6 +19,21 @@ class car
 	String model;
 	int amountOfFuel = 10;
 	
+	//default
+		public car()
+		{
+			brand="";
+			model="";
+			amountOfFuel=0;
+		}
+		//parametized
+		public car(String Branding, String Modeling, int Fuel)
+		{
+			brand=Branding;
+			model=Modeling;
+			amountOfFuel=Fuel;
+		}
+	
 	
 	public void brand()
 	{
